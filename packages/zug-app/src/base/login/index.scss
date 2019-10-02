@@ -1,0 +1,25 @@
+.login{
+    height: 100%;width: 100%;
+    top:0;
+    position: fixed;
+    transition: all 0.3s ease-out;
+
+    &.hide{
+        top: -100%;opacity: 0;
+
+        .login-input-panel{
+            right: -400px
+        }
+    }
+
+    .login-input-panel{
+        background-color: #fff;
+        width: 400px;
+        height:100%;
+        box-shadow: -4px 4px 6px 0 rgba(0,0,0,0.1);
+        right: 0;top: 0;
+        position: absolute;
+        transition: all 0.3s ease-out;
+    }
+}
+
